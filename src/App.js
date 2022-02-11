@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-
-import ClassCounter from "./components/classCounter";
+import ClassCounter from "./components/ClassCounter";
 
 class App extends Component {
   render() {
