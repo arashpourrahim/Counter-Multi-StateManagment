@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ClassCounter from "./components/ClassCounter";
+import MainCounter from "./components/MainCouter";
 
 class App extends Component {
   render() {
@@ -7,6 +8,9 @@ class App extends Component {
       <div>
         <div>
           <ClassCounter />
+        </div>
+        <div>
+          <MainCounter />
         </div>
       </div>
     );
